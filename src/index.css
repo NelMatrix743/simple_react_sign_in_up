@@ -10,6 +10,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background: linear-gradient(
+    to bottom right,
+    #eef2ff, /* indigo-50 */
+    #ffffff, /* white */
+    #e0e7ff  /* indigo-100 */
+  );
 }
 
 .main-section {
