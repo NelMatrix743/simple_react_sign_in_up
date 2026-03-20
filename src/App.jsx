@@ -1,12 +1,12 @@
-import "./App.css";
+import "./Components/AuthSection";
 
 
 let App = () => {
   return (
     <main className="main-section">
 
-      {/* implementation starts here */}
-      
+      {/* starts here */}
+      <AuthSection/>
 
     </main>
   )
