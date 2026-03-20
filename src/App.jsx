@@ -1,4 +1,4 @@
-import "./Components/AuthSection";
+import AuthSection from "./Components/AuthSection/AuthSection.jsx";
 
 
 let App = () => {
