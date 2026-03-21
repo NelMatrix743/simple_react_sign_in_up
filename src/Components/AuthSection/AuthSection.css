@@ -25,6 +25,13 @@
     margin-bottom: 10px;
 }
 
+.underline {
+    width: 70px;
+    height: 6px;
+    background: #1CAE81;
+    border-radius: 9px;
+}
+
 
 .input-section {
     width: 100%;
