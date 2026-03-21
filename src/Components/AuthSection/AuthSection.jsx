@@ -40,7 +40,7 @@ let AuthSection = () => {
 
             <div className="forgot-password-section">
                 Forgot your password?
-                <a href="">CLICK HERE</a>
+                <a href="">click here</a>
             </div>
             
         </div>
