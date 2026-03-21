@@ -18,17 +18,17 @@ let AuthSection = () => {
 
                 <div className="input-item">
                     <img className="icon" src={userIco} alt="username" />
-                    <input type="text" name="" id="" />
+                    <input type="text" name="" id="" placeholder="username"/>
                 </div>
 
                 <div className="input-item">
                     <img className="icon" src={emailIco} alt="email" />
-                    <input type="email" name="" id="" />
+                    <input type="email" name="" id="" placeholder="example@domain.com"/>
                 </div>
 
                 <div className="input-item">
                     <img className="icon" src={passwordIco} alt="password" />
-                    <input type="password" name="" id="" />
+                    <input type="password" name="" id="" placeholder="password"/>
                 </div>
 
             </div>
