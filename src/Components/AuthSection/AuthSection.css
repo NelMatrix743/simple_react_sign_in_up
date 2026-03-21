@@ -17,6 +17,15 @@
     margin: 5px;
 }
 
+
+.header-text {
+    color: #1CAE81;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+
 .input-section {
     width: 100%;
     display: flex;
