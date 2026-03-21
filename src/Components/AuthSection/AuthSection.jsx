@@ -38,7 +38,7 @@ let AuthSection = () => {
                 <button className="sign-up-btn">SIGN UP</button>
             </div>
 
-            <div className="forgot-password">
+            <div className="forgot-password-section">
                 Forgot your password?
                 <a href="">CLICK HERE</a>
             </div>
