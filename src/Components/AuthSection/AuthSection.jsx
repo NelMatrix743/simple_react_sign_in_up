@@ -1,3 +1,4 @@
+import { useState } from "react";
 import "./AuthSection.css";
 
 import userIco from "~/Assets/user.png";
@@ -6,17 +7,20 @@ import passwordIco from "~/Assets/password.png";
 
 
 let AuthSection = () => {
+
+    let [isLogin, changeAuth] = useState(true);
+
     return (
         <div className="container">
 
             <div className="header-section">
-                <p className="header-text">Sign Up</p>
+                <p className="header-text">{ isLogin ? "Login" : "Sign Up" }</p>
                 <div className="underline"></div>
             </div>
 
             <div className="input-section">
 
-                <div className="input-item">
+                <div className={isLogin ? "hide" : "input-item" }>
                     <img className="icon" src={userIco} alt="username" />
                     <input type="text" name="" id="" placeholder="username"/>
                 </div>
@@ -34,11 +38,11 @@ let AuthSection = () => {
             </div>
 
             <div className="button-section">
-                <button className="sign-in-btn">SIGN IN</button>
-                <button className="sign-up-btn">SIGN UP</button>
+                <button className="sign-in-btn" onClick={() => changeAuth(true)}>SIGN IN</button>
+                <button className="sign-up-btn" onClick={() => changeAuth(false)}>SIGN UP</button>
             </div>
 
-            <div className="forgot-password-section">
+            <div className={ isLogin ? "forgot-password-section" : "hide" }>
                 Forgot your password?
                 <a href="">click here</a>
             </div>
