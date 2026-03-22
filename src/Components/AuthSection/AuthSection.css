@@ -136,3 +136,8 @@ a {
     font-weight: 00;
     letter-spacing: 1px
 }
+
+
+.hide {
+    display: none;
+}
